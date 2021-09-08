@@ -1,5 +1,5 @@
 #include<stdio.h>
-void numeros(int a,int b){
+int numeros(int a,int b){
 	printf("el valor es: %d",a);
 	printf("\nel segundo valor es: %d",b);
 }
