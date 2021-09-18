@@ -1,16 +1,19 @@
 #include<stdio.h>
-int numeros(int a,int b){
-	printf("el valor es: %d",a);
-	printf("\nel segundo valor es: %d",b);
+int one(int a){
+  printf("ingrese un numero: ");
+  scanf("%d",&a);
+  return a;
+}
+int two(int b){
+  printf("ingrese el segundo numero: ");
+  scanf("%d",&b);
+  return b;
 }
 int main(){
-	int n1,n2;
-	printf("ingrese un numero: ");
-	scanf("%d",&n1);
-	printf("ingrese otro numero: ");
-	scanf("%d",&n2);
-	
-	numeros(n1,n2);
-	
-	
+  int a=0,b=0;
+  a=one(a);
+  b=two(b);
+
+ printf("el primero es: %d",a);
+ printf("\nel segundo es: %d\n",b);
 }
