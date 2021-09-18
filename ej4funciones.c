@@ -2,6 +2,7 @@
 int total(int fuerza, int superficie){
 	int presion;
 	presion=fuerza/superficie;
+	return presion;
 }
 int main(){
 	int a,b;
