@@ -3,6 +3,7 @@ int octaba(int a){
 	int total;
 	int b=8;
 	total=a/b;
+	return total;
 }
 int main(){
 	int n1;
